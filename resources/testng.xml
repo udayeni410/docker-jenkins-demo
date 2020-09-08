@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://beust.com/testng/testng-1.0.dtd">
+<suite name="Calculator Test Suite">
+
+	<listeners>
+		<listener class-name="com.qmetry.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Calculator Test Cases">
+		<classes>
+			<class name="com.qmetry.testng_demo.CalculatorTest"></class>
+		</classes>
+	</test>
+</suite>
